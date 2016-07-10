@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RefreshControl.h
 //  下拉刷新OC版-UIControl
 //
 //  Created by 王奥东 on 16/7/10.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface RefreshControl : UIControl
 
+-(void)endRefreshing;
 
 @end
-
